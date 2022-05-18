@@ -13,6 +13,7 @@ License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
 Imports: 
   tidyverse (>= 1.3.0),
   tidygeocoder (>= 1.0.5),
+  data.table(>= 1.13.6),
   parallel (>= 4.0.3),
   tictoc (>= 1.0.1)
 Encoding: UTF-8
