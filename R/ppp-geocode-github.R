@@ -1,7 +1,7 @@
 library(tidyverse)
 library(tidygeocoder)
 library(parallel)
-#library(data.table)
+library(data.table)
 library(tictoc)
 
 low_accuracy2 <- read_csv("./addresses_to_geocode.csv")
@@ -26,7 +26,7 @@ arc_code <- function (y){
 #break down and save every 500
 #addresses4 <- addresses4[301:length(addresses4)] #remove 300 sets of 100 already done
 
-for (i in 780:783){ #77 total>> Dell will do 40:77
+for (i in 780:781){ #77 total>> Dell will do 40:77
   #i <- 783
   tic()
   start <- i * 10 - 9
